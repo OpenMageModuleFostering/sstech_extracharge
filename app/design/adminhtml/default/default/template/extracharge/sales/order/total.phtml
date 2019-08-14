@@ -1,0 +1,9 @@
+<?php $this->setPriceDataObject($this->getSource()) ?>
+<?php if ((float) $this->getSource()->getExtrachargeAmount()): ?>
+    <tr>
+        <td class="label"><?php echo Mage::helper('extracharge')->formatExtracharge($this->getSource()->getExtrachargeAmount()) ?></td>
+        <td>
+            <?php echo $this->displayPrices($this->getSource()->getBaseExtrachargeAmount(), $this->getSource()->getExtrachargeAmount()); ?>
+        </td>
+    </tr>
+<?php endif; ?>

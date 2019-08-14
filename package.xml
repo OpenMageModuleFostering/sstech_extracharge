@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>SSTech_Extracharge</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This Extension will help Client to add Extra Charges in Total based on the policy </summary>
+    <description>Module will help to add Extra Charges based on the Policy based on the Client website </description>
+    <notes>Release version 1.0.0</notes>
+    <authors><author><name>SSTech</name><user>SSTech</user><email>sandynareshg@gmail.com</email></author></authors>
+    <date>2014-03-22</date>
+    <time>09:55:54</time>
+    <contents><target name="magecommunity"><dir name="SSTech"><dir name="Extracharge"><dir name="Block"><dir name="Sales"><dir name="Order"><file name="Total.php" hash="6d65d73a014cea17ea5e68535b7524ad"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="7e6c35b697d30f1e58feac0bc0ae0166"/></dir><dir name="Model"><file name="Extracharge.php" hash="129f1be306dd1bd36ca6fe3cf215822c"/><file name="Observer.php" hash="37aae100a4e0a852a48e1c4e93c74965"/><dir name="Sales"><dir name="Order"><dir name="Total"><dir name="Creditmemo"><file name="Extracharge.php" hash="f8c73ea73fac067a2f91320753d4d809"/></dir><dir name="Invoice"><file name="Extracharge.php" hash="a09935c8d785c6666aaccb94b27dfc5c"/></dir></dir></dir><dir name="Quote"><dir name="Address"><dir name="Total"><file name="Extracharge.php" hash="0f9e87ea55c554b63f1a0ec04bcc2c8c"/></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="432c7a8d523f89c251c61d2d307a8784"/><file name="config.xml" hash="661a1493de84ea4f83735db184d19db4"/><file name="system.xml" hash="d883699bd75298fcf616d487bf6ff608"/></dir><dir name="sql"><dir name="extracharge_setup"><file name="mysql4-install-0.1.0.php" hash="e46237d15848e74f00c42272901db957"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="f29b6081b0e38b485714d3e84421896c"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="2d0bbab37bbfd189403cc78bff8cfc7f"/><file name="mysql4-upgrade-0.1.2-0.1.3.php" hash="8ddb679b397844f988f9f6ddcef48463"/><file name="mysql4-upgrade-0.1.3-0.1.4.php" hash="0a36c9ccc0c51972f42a6db065e0646a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SSTech_Extracharge.xml" hash="141da3744620193ae9ada2aa3c0669cf"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="extracharge.xml" hash="7691aea9fdcb8561aee65708c82fdf2e"/></dir><dir name="template"><dir name="extracharge"><dir name="sales"><dir name="order"><file name="refunded.phtml" hash="8f8836c2a3c51d27fbbbbd7af50d980b"/><file name="total.phtml" hash="7d91e26b4d7e16c70866c56bfa6b2d0d"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="extracharge.xml" hash="2a2fbc7982250839b9a7e093b5f6a1f3"/></dir><dir name="template"><dir name="extracharge"><file name="extracharge.phtml" hash="ade7866905ec0c9e4ad823d830ed307b"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.17</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,16 @@
+<?php if($this->getSource() instanceof Mage_Sales_Model_Order){ ?>
+<?php if ((float) $this->getSource()->getExtrachargeAmountRefunded()): ?>
+    <tr>
+        <td class="label"><strong><?php echo Mage::helper('extracharge')->__('Extracharge refunded to customer') ?></strong></td>
+        <td><strong><?php echo $this->getSource()->getExtrachargeAmountRefunded(); ?></strong></td>
+    </tr>
+<?php endif; ?>
+<?php } else { ?>
+<?php if ((float) $this->getSource()->getExtrachargeAmount()): ?>
+    <tr>
+        <td class="label"><strong><?php echo Mage::helper('extracharge')->__('Extracharge Refunded') ?></strong></td>
+        <td><strong><?php echo $this->getSource()->getExtrachargeAmount(); ?></strong></td>
+    </tr>
+<?php endif; 
+}?>
+
