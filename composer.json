@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/SSTech_Extracharge",
+    "name": "openmage-module-fostering\/sstech_extracharge",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This Extension will help Client to add Extra Charges in Total based on the policy ",
     "authors": [
